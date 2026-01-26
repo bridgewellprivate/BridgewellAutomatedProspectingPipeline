@@ -1,17 +1,24 @@
-# Bridgewell-AI-automated-prospecting-pipeline
+# Bridgewell AI: Automated Prospecting Pipeline
+An end-to-end data engineering pipeline built to automate lead generation for wealth managers.
+# Business Impact
+- Efficiency: Automated 25+ hours of manual prospecting per week.
+- Accuracy: Achieved a 95% data validity rate post-cleaning, significantly reducing bounce rates.
+- Website: bridgewellprivate.com
+# Technical Architecture
+The system follows a 4-stage Data Science lifecycle:
+1. Data Acquisition: - Scrapes public financial data using BeautifulSoup and Selenium.
+   - Integrates with Apollo.io and **LinkedIn APIs for enriched contact verification.
+2. Preprocessing & Wrangling:
+   - Cleans unstructured data using Pandas.
+   - Implements logic to remove duplicates and validate email syntax/domain health.
+3. Algorithmic Filtering:
+   - Applies a weighted scoring algorithm to rank leads based on client-defined AUM and location criteria.
+4. Automated Outreach:
+   - Triggers AI-personalized email sequences with SMTP and OpenAI API for context-aware messaging.
+# Tech Stack
+- Languages: Python (Pandas, NumPy)
+- Scraping: Selenium, BeautifulSoup
+- API Integration: OpenAI, Apollo, LinkedIn
+- Tools: SQL, Vercel (Frontend)
 
-How my company works:
-
-Architecture
-Extraction: Scrapes public financial data using BeautifulSoup/Selenium/Apollo.io/LinkedIn
-Preprocessing: Cleans data to remove duplicates and invalid contact info.
-Filtering: Applies a weighted scoring algorithm to rank leads based on pre-set client-defined criteria.
-Outreach: System triggers an automated, AI-personalized email sequence - API.
-
-Results
-Efficiency: Automated 25+ hours of manual prospecting per week.
-Accuracy: 95% data validity rate post-cleaning.
-
-website: bridgewellprivate.com
-
-Bryce Soli
+**Bryce Soli | Data Science Senior @ Bryant University**
