@@ -2,19 +2,19 @@
 An end-to-end data engineering pipeline built to automate lead generation for wealth managers.
 
 # Pipeline Process
-Traffic
+1. Traffic
+
+2. Website (Positioning + CTA)
   ↓
-Website (Positioning + CTA)
+3. Calendly (Qualification + Scheduling)
   ↓
-Calendly (Qualification + Scheduling)
+4. Auto-confirm + prep message
   ↓
-Auto-confirm + prep message
+5. Bridgewell AI (internal support)
   ↓
-Bridgewell AI (internal support)
+6. Sales Call
   ↓
-Sales Call
-  ↓
-Client
+7. Client
 
 # Business Impact
 - Efficiency: Automated 25+ hours of manual prospecting per week.
