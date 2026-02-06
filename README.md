@@ -5,15 +5,15 @@ An end-to-end data engineering pipeline built to automate lead generation for we
 1. Traffic
 
 2. Website (Positioning + CTA)
-  ↓
+
 3. Calendly (Qualification + Scheduling)
-  ↓
+
 4. Auto-confirm + prep message
-  ↓
+
 5. Bridgewell AI (internal support)
-  ↓
+
 6. Sales Call
-  ↓
+
 7. Client
 
 # Business Impact
