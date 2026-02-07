@@ -1,4 +1,4 @@
-**BridgewellAI**
+## BridgewellAI
 - A private, local LLM used as an internal sales and operations system to help financial advisors book meetings with more qualified prospects.
 - Analyzes sales conversations and conversation data to improve close rates, script quality, and decision-making efficiency.
 
